@@ -2,3 +2,52 @@
 body{
     background-color:green;
 }
+
+p, h2{
+    color: silver;
+}
+
+footer p{
+    color: white;
+    font-size:10px;
+}
+/* target an element based on its class (using the class larger) - use a dot */
+.larger{
+    font-size:24px;
+}
+#play{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img[src$="jpg"]{
+    width:200px;
+}
+
+a:visited{
+    color: springgreen;
+}
+a:hover{
+    color: violet;
+}
+
+p:last-child{
+    font-style:italic;
+}
+li :nth-child(2n-1){
+    background-color:brown;
+}
+
+section{
+    width: 400px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+nav{
+    background-color: rgba(20,20,40,.6);
+}
+
+span{
+    background-color: rgb(255,128,200);
+}
