@@ -1,0 +1,4 @@
+/* apply a background colour to the whole page (or the bofy tag) */
+body{
+    background-color:green;
+}
